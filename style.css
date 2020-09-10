@@ -76,6 +76,7 @@ aside > section > div {
 
 
 .skills > ul >li{list-style: inside; word-break: break-all;}
+.skill{word-break: break-all;}
 
 .more{border: none;}
 
@@ -94,5 +95,12 @@ main {
 @media (max-width: 500px) {
   aside {
     width: 100%;
+    border-right: none;
   }
+  .content{
+    flex-direction: column;
+  }
+  header{min-height: 75px}
+  header>h1{display: none;}
+  header>p{display: none;}
 }
