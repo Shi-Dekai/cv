@@ -12,6 +12,7 @@ header > p {color: #999999;}
 aside > section > div > ul > li {margin: 4px 0;}
 .more>ul>li>img{width: 1.5em; height: 1.5em; margin: 0 10px;}
 .more>ul>li{display: flex; align-items: center;}
+.honor{display: flex; flex-direction: column;}
 .case li img, .introduction, .achieve {margin-bottom: 2px;}
 .case img{width: 100%;border: 1px dashed #bbbbbb;}
 .case .link>a:nth-child(1){border-right: 1px solid #bbbbbb; padding-right: 4px;}
@@ -39,7 +40,7 @@ aside > .avatar {
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
-  background: #ccc;
+  background: white;
   box-shadow: 0 0 4px #ccc;
 }
 
