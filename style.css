@@ -14,7 +14,7 @@ aside > section > div > ul > li {margin: 4px 0;}
 .more>ul>li{display: flex; align-items: center;}
 .honor{display: flex; flex-direction: column;}
 .case li img, .introduction, .achieve {margin-bottom: 2px;}
-.case img{width: 100%;border: 1px dashed #bbbbbb;}
+.case img{width: 85%;position: relative;left: 50%;transform: translateX(-50%);border: 1px dashed #bbbbbb;}
 .case .link>a:nth-child(1){border-right: 1px solid #bbbbbb; padding-right: 4px;}
 .work > div {display: flex;justify-content: space-between;align-items: center;}
 
