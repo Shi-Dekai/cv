@@ -14,8 +14,11 @@ aside > section > div > ul > li {margin: 4px 0;}
 .more>ul>li{display: flex; align-items: center;}
 .honor{display: flex; flex-direction: column;}
 .case li img, .introduction, .achieve {margin-bottom: 2px;}
+.companyProject li img, .introduction, .achieve {margin-bottom: 2px;}
 .case img{width: 85%;position: relative;left: 50%;transform: translateX(-50%);border: 1px dashed #bbbbbb;}
+.companyProject img{width: 85%;position: relative;left: 50%;transform: translateX(-50%);border: 1px dashed #bbbbbb;}
 .case .link>a:nth-child(1){border-right: 1px solid #bbbbbb; padding-right: 4px;}
+.companyProject .link>a:nth-child(1){border-right: 1px solid #bbbbbb; padding-right: 4px;}
 .work > div {display: flex;justify-content: space-between;align-items: center;}
 
 header {
@@ -82,7 +85,7 @@ aside > section > div {
 
 
 .skills > ul >li{list-style: inside; word-break: break-all;}
-.skill{word-break: break-all;}
+.skill{margin-top: 12px;margin-bottom: 36px;word-break: break-all;}
 
 .more{border: none;}
 
